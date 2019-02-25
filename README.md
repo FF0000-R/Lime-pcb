@@ -7,14 +7,20 @@ Répertoire de travail sur le Lime electric scooter
 Le scooter Lime est principalement basé sur un Ninebot ES2:\
 https://shop.segway.com/ie-en/20/-ninebot-by-segway-kickscooter-es2
 
-***RESSOURCES IMPORTANTES!!***\
-**répertoire de documents d'identification de la FCC au sujet de\
-LBCAT Tracking device par Neutron Holdings, Inc.\
-Utilise le meme pcb\
-+50 pd de ressources.\
+Neutron Holdings est le nom commercial de Lime, et en Belgique en tout cas, il sont en partenariat avec uber.\
+ils font aussi des velos et des voitures à partager.\
+Ils fabriquent eux memes leurs verrous intelligents, qh'ils fixent sur des vélos/ scooters fait par une autre companie.\
+Nous avons donc quelques verrous sencé communiquer avec la machine pour l'empecher de fonctionner sous certaines conditions.\
+Le nom du verrou qui nous intéresse est le LBCAT-S
+
+**RESSOURCES IMPORTANTES!!**\
+**répertoire de documents d'identification de la FCC\
++50 pdf de ressources.\
 pinout etc\
-https://fccid.io/2APB2LBCAT
-**
+https://fccid.io/2APB2LBCAT**
+
+Selon les photos, le connecteur de debug est un connecteur "USB and debug UART"
+et apparemment l'autre connecteur peut aussi etre utilisé en mode uart
 
 Subredit: (forum discutions en tout genre à propos des scooters,\
 pas spécialement le plus important mais ca peut toujours etre utile)\
@@ -44,3 +50,6 @@ https://www.twilio.com/blog/2018/01/setting-up-a-twilio-programmable-wireless-si
 https://www.twilio.com/docs/wireless/api/sim
 
 https://www.absunshine.com/en/parts/NM1482KSLAXCL-3B-NANYA-5064571
+
+certains utilisateurs s'occupent de charger les scooters et sont payés entre 5-20 euros pour ca,
+et etonnament, je vois partout qu'ils sont pas sensés etre dispos pendant la nuit apparemment  seulement entre 7 et 22 h, mais on dirait que ca a changé depuis
